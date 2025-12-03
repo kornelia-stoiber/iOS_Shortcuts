@@ -1,0 +1,12 @@
+// Action: "Resize Image", Variable: [Resized Image]
+Resize [Clipboard] to [Size] [320] x [Auto Height]
+
+// Action: "Choose from Menu"
+Choose from menu with "Do you want to save the resized image?"
+"Yes"
+"No"
+Yes
+    // Action: "Save to Photos"
+    Save [Resized Image] to [Recents]
+No
+End Menu
