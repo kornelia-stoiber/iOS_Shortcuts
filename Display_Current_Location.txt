@@ -1,0 +1,5 @@
+// Action: "Get Current Location", Variable: [Current Location]
+Get Current Location
+
+// Action: "Show Alert"
+Show alert "The current location is:<br>[Current Location, Option: Full Street Address]"
