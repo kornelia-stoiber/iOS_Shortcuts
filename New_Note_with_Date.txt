@@ -1,0 +1,14 @@
+// Action: "Ask for Input", Variable: [Ask fot Input]
+Ask for [Option: Text] with "What do you want it to say?"
+
+// Action: "Text", Variable: [Text]
+Text "[Current Date, Option: Date, Date Format: Short, Time Format: Short]<br>[Ask for Input]"
+
+// Action: "Set Variable", Variable: [Content]
+Set variable [Content] to [Text]
+
+// Action: "Create Note", Variable: [New Note]
+Create note with [Content] in [Notes]
+
+// Action: "Open Note"
+Open [New Note]
